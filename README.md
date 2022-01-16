@@ -11,26 +11,30 @@ To begin, please note that Perl and libwww is a prerequisite to install CSF on a
 ~~~
 # yum install perl-libwww-perl
 ~~~
+~~~
 # apt install libwww-perl
 ~~~
-
+~~~
 Step 1 – Download CSF
+~~~
 # cd /usr/src
 # wget https://download.configserver.com/csf.tgz
 or
 # cd /usr/src
 # git clone https://github.com/anonymansz/csf
-
+~~~
+~~~
 Step 2 – Extract the CSF tarball
+~~~
 # tar xzf csf.tgz
 # cd csf
-
+~~~
 Step 3 – Run the CSF Installation Script
 This part of the process will check that all dependencies are installed, create the necessary directory structures and files for the web interface, detect currently open ports, and remind you to restart the csf and lfd daemons after you’re done with the initial configuration.
-
+~~~
 # sh install.sh
 # perl /usr/local/csf/bin/csftest.pl
-
+~~~
 The expected output of the above command is as follows:
 ~~~
 Testing ip_tables/iptable_filter...OK
