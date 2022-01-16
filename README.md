@@ -14,15 +14,16 @@ To begin, please note that Perl and libwww is a prerequisite to install CSF on a
 ~~~
 # apt install libwww-perl
 ~~~
-~~~
+
 Step 1 – Download CSF
 ~~~
 # cd /usr/src
 # wget https://download.configserver.com/csf.tgz
+~~~
 or
+~~~
 # cd /usr/src
 # git clone https://github.com/anonymansz/csf
-~~~
 ~~~
 Step 2 – Extract the CSF tarball
 ~~~
@@ -51,7 +52,7 @@ Testing iptable_nat/ipt_DNAT...OK
 
 RESULT: csf should function on this server
 ~~~
-
+~~~
 Step 4: Disable Firewall and Configure CSF
 Disable firewalld if running and configure CSF.
 
