@@ -133,10 +133,3 @@ If you would like to remove CSF firewall completely, just run the following scri
 
 # /etc/csf/uninstall.sh
 The above command will erase CSF firewall completely with all the files and folders.
-
-Summary
-In this article we have explained how to install, configure, and use CSF as a firewall and intrusion detection system. Please note that more features are outlined in csf.conf.
-
-For example, If you are in the web hosting business, you can integrate CSF with management solutions such as Cpanel, WHM, or the well-known Webmin.
-
-Do you have any questions or comments about this article? Feel free to send us a message using the form below. We look forward to hearing from you!
