@@ -1,5 +1,4 @@
-#ConfigServer Security & Firewall (CSF)
-#######################################
+# ConfigServer Security & Firewall (CSF)
 
 If you look at IT-related job postings anywhere, you will notice a steady demand for security pros. This does not only mean that cybersecurity is an interesting field of study, but also a very lucrative one.
 
