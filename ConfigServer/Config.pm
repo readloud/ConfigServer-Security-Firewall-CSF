@@ -333,9 +333,9 @@ sub loadconfig {
 
 	$config{cc_src} = "MaxMind";
 	$config{asn_src} = "MaxMind";
-	$config{cc_country} = "http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
-	$config{cc_city} = "http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
-	$config{cc_asn} = "http://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
+	$config{cc_country} = "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
+	$config{cc_city} = "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
+	$config{cc_asn} = "https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-ASN-CSV&suffix=zip&license_key=$config{MM_LICENSE_KEY}";
 	if ($config{CC_SRC} eq "2") {
 		$config{cc_src} = "DB-IP";
 		$config{asn_src} = "iptoasn.com";
